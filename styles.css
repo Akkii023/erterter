@@ -1,0 +1,89 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5e3e3; /* Soft pink background */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#quiz-container,
+#marriage-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+#question-container h2 {
+  color: #ff6969; /* Romantic red color for question text */
+}
+
+.option {
+  background-color: #ff9999; /* Light red background for options */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#answer-popup,
+#missed-popup,
+#marriage-popup {
+  background-color: #ffdbdb; /* Light pink background for popups */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#try-no-button {
+  color: #ff0000;
+}
+
+#no-button-marriage {
+  position: absolute;
+  background-color: #ff6969; /* Romantic red color for the 'No' button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#yes-button-marriage {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#marriage-gifts {
+  margin-top: 20px;
+}
+
+#marriage-gift-list {
+  padding: 0;
+}
+
+#marriage-gift-list li {
+  margin-bottom: 10px;
+  color: #ff6969; /* Romantic red color for gift list items */
+}
+
+#marriage-message {
+  color: #4CAF50;
+}
